@@ -186,3 +186,45 @@ body {
 .desktop-icon-wrapper:hover .desktop-icon-label {
   background: rgba(0, 102, 204, 0.8);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .dock-container {
+    padding: 8px 12px;
+    gap: 8px;
+    bottom: 15px;
+    border-radius: 18px;
+  }
+  
+  .dock-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+  }
+  
+  .dock-item:hover {
+    transform: scale(1.2) translateY(-5px);
+    margin: 0 5px;
+  }
+
+  .dock-tooltip {
+    font-size: 11px;
+    top: -30px;
+  }
+
+  .desktop-icon-wrapper {
+    width: 90px;
+  }
+
+  .desktop-icon-image-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .desktop-icon-label {
+    font-size: 11px;
+    padding: 2px 4px;
+    margin-top: 6px;
+  }
+}

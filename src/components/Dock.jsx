@@ -1,12 +1,7 @@
 import React from 'react';
-import { Camera, Image as ImageIcon, Video, Folder, TerminalSquare } from 'lucide-react';
+import { Camera, Image as ImageIcon, Video, Folder } from 'lucide-react';
 
 const dockItems = [
-  {
-    name: 'Antigravity',
-    icon: <TerminalSquare size={32} color="#00ffcc" />,
-    bg: 'linear-gradient(135deg, #1f1c2c 0%, #928dab 100%)'
-  },
   {
     name: 'Photoshop',
     icon: <span style={{ color: '#31a8ff', fontSize: '28px', fontWeight: 'bold', fontFamily: 'sans-serif' }}>Ps</span>,

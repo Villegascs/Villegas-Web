@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="desktop-container">
       {/* Background Wallpaper */}
-      <img src="/Branding/POSTER.jpg.jpeg" alt="Desktop Wallpaper" className="desktop-background" />
+      <img src="/Branding/POSTER.jpg (1) (1) (1).jpeg" alt="Desktop Wallpaper" className="desktop-background" />
 
       {/* Desktop Icons Area */}
       <div className="desktop-icons-area">
